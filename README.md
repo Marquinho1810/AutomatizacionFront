@@ -68,7 +68,7 @@ sauce-demo-automation/
 1. Clonar el repositorio:
    ```bash
    git clone https://github.com/Marquinho1810/AutomatizacionFront
-   cd sauce-demo-automation
+   cd AutomatizacionFront
    ```
 
 2. Instalar dependencias:
