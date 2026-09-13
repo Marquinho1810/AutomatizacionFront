@@ -67,7 +67,7 @@ sauce-demo-automation/
 
 1. Clonar el repositorio:
    ```bash
-   git clone <URL_DEL_REPOSITORIO>
+   git clone https://github.com/Marquinho1810/AutomatizacionFront
    cd sauce-demo-automation
    ```
 
