@@ -1,0 +1,41 @@
+{
+  "name": "sauce-demo-automation",
+  "version": "1.0.0",
+  "description": "Suite de automatización QA para SauceDemo usando Playwright + Cucumber (Gherkin) con patrón Page Object Model",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js",
+    "test:report": "cucumber-js && npm run report:generate",
+    "report:generate": "node ./src/support/generate-report.js",
+    "test:tags": "cucumber-js --tags",
+    "posttest": "echo 'Ejecución finalizada. Revisa reports/cucumber-report.html'"
+  },
+  "keywords": [
+    "playwright",
+    "cucumber",
+    "qa",
+    "automation",
+    "saucedemo",
+    "e2e"
+  ],
+  "author": "Marcos Antonio Padilla Acuña (QA Automation Engineer)",
+  "license": "MIT",
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.3.0",
+    "@playwright/test": "^1.50.1",
+    "playwright": "^1.50.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3",
+    "multiple-cucumber-html-reporter": "^3.9.2",
+    "@types/node": "^22.13.1"
+  },
+  "overrides": {
+    "glob": "latest",
+    "uuid": "^11.0.5",
+    "reflect-metadata": "^0.2.2"
+  },
+  "engines": {
+    "node": ">=20.11.0",
+    "npm": ">=10.2.4"
+  }
+}
